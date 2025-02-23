@@ -1,0 +1,30 @@
+@import "components/header.css";
+@import "components/hero.css";
+@import "components/buttons.css";
+@import "components/about.css";
+@import "components/images.css";
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #000;
+    color: #FFF;
+    font-family: "Poppins", sans-serif;
+    background-image: url('../assets/img/background-pattern.png');
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+}

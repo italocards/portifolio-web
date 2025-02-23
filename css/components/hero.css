@@ -1,0 +1,39 @@
+.hero {
+    scroll-margin-top: 100px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 20px;
+    position: relative;
+}
+
+.gradient-text {
+    background: linear-gradient(45deg, #9C83FF, #FF9051);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-weight: 600;
+}
+
+.logo-main {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+
+.subtitle {
+    font-size: 24px;
+    color: #FFF;
+    margin-bottom: 20px;
+}
+
+.description {
+    max-width: 600px;
+    line-height: 1.6;
+    color: #FFF;
+    margin-bottom: 30px;
+} 
