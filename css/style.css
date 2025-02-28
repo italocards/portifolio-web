@@ -3,6 +3,10 @@
 @import "components/buttons.css";
 @import "components/about.css";
 @import "components/images.css";
+@import "components/skills.css";
+@import "components/experience.css";
+@import "components/projects.css";
+@import "components/contact.css";
 
 html {
     scroll-behavior: smooth;

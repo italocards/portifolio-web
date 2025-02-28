@@ -20,10 +20,11 @@
             </a>
             <nav>
                 <a href="#about">Sobre</a>
+                <a href="#skills">Skills</a>
                 <a href="#experience">Experiência</a>
                 <a href="#projects">Projetos</a>
                 <a href="#contact">Contatos</a>
-                <a id="button" href="#download" lang="en">Download CV</a>
+                <a id="button" href="assets/docs/Currículo de João Italo Cardoso Lima.pdf" download="JoaoItalo_CV.pdf" target="_blank">Download CV</a>
             </nav>
         </header> 
 
@@ -31,14 +32,241 @@
             <section id="hero" class="hero">
                 <img src="assets/img/logo230px.png" alt="Avatar de João Italo" class="hover logo-main">
                 <h1>João Italo!</h1>
-                <p class="subtitle">I do Code & <span class="gradient-text">Design</span> 🚀</p>
-                <p class="description">Desenvolvedor Front-End apaixonado, focado em criar interfaces elegantes e amigáveis, transformando conceitos em código com dedicação à inovação.</p>
-                <button class="cta-button">Entre em Contato</button>
+                <p class="subtitle">Android Developer & <span class="gradient-text">Java</span> 🚀</p>
+                <p class="description">
+                    Desenvolvedor Android apaixonado por criar aplicações móveis inovadoras. 
+                    Focado em arquitetura de software e boas práticas de programação, 
+                    transformando ideias em soluções eficientes com Kotlin e Java.
+                </p>
+                <button class="cta-button" onclick="window.location.href='#contact'">Entre em Contato</button>
             </section>
 
             <section id="about" class="about-section">
-                <h2>SOBRE MIM</h2>
-                <p class="explore-text">SAIBA MAIS</p>
+                <h2>SOBRE MIM 👨‍💻</h2>
+                <p class="subtitle"><span class="gradient-text">Conheça um pouco sobre mim</span></p>
+                <p class="description">
+                    Sou estudante de Ciência da Computação na Universidade de Fortaleza, atualmente no 5º semestre. 
+                    Apaixonado por desenvolvimento de software, com foco especial em desenvolvimento Android e arquitetura de sistemas. 
+                    Busco constantemente aprender novas tecnologias e aprimorar minhas habilidades técnicas.
+                    
+                    Além da formação acadêmica, possuo experiência prática em projetos utilizando Kotlin, Java e Firebase, 
+                    sempre aplicando boas práticas de programação e padrões de projeto. Também participei de projetos de IoT 
+                    no laboratório LAPIN da UNIFOR, expandindo minha visão sobre tecnologia e inovação.
+                </p>
+            </section>
+
+            <section id="skills" class="skills-section">
+                <h2>SKILLS 🛠️</h2>
+                <p class="subtitle"><span class="gradient-text">Competências Técnicas</span></p>
+                
+                <div class="skills-container">
+                    <!-- Android Development -->
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <img src="assets/img/android-logo.png" alt="Android Icon">
+                        </div>
+                        <h3>Desenvolvimento Android</h3>
+                        <div class="skill-tags">
+                            <span class="tag">Kotlin</span>
+                            <span class="tag">Java</span>
+                            <span class="tag">REST APIs</span>
+                            <span class="tag">Firebase</span>
+                            <span class="tag">Fragments</span>
+                            <span class="tag">Jetpack Compose</span>
+                            <span class="tag">MVVM</span>
+                            <span class="tag">SOLID</span>
+                        </div>
+                    </div>
+
+                    <!-- Java -->
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <img src="assets/img/java-logo.jpg" alt="Java Icon">
+                        </div>
+                        <h3>Java</h3>
+                        <div class="skill-tags">
+                            <span class="tag">POO</span>
+                            <span class="tag">Estrutura de Dados</span>
+                            <span class="tag">Arquitetura de Sistemas</span>
+                        </div>
+                        <p class="skill-description">
+                            Principal linguagem utilizada em projetos acadêmicos, aplicando conceitos de POO 
+                            e arquitetura para desenvolver soluções eficientes e bem estruturadas.
+                        </p>
+                    </div>
+
+                    <!-- Database -->
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <img src="assets/img/bancodedados-logo.png" alt="Database Icon">
+                        </div>
+                        <h3>Banco de Dados</h3>
+                        <div class="skill-tags">
+                            <span class="tag">MySQL</span>
+                            <span class="tag">Firebase</span>
+                            <span class="tag">Modelagem</span>
+                            <span class="tag">SQL</span>
+                        </div>
+                        <p class="skill-description">
+                            Experiência em modelagem e implementação de bancos de dados, 
+                            otimização de consultas e garantia de integridade dos dados.
+                        </p>
+                    </div>
+
+                    <!-- Tools & Methods -->
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <img src="assets/img/ferramentas-logo.png" alt="Tools Icon">
+                        </div>
+                        <h3>Ferramentas & Métodos</h3>
+                        <div class="skill-tags">
+                            <span class="tag">Scrum</span>
+                            <span class="tag">Kanban</span>
+                            <span class="tag">Git</span>
+                            <span class="tag">Excel</span>
+                            <span class="tag">Word</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="experience" class="experience-section">
+                <h2>EXPERIÊNCIA 💼</h2>
+                <p class="subtitle"><span class="gradient-text">Minha jornada profissional</span></p>
+                
+                <div class="experience-container">
+                    <!-- Experiência LAPIN -->
+                    <div class="experience-card">
+                        <div class="experience-icon">
+                            <img src="assets/img/lapin-logo.jpg" alt="IoT Icon">
+                        </div>
+                        <div class="experience-header">
+                            <h3>LABORATÓRIO DE PESQUISA E INOVAÇÃO EM CIDADES - LAPIN</h3>
+                            <span class="date">2023.1</span>
+                        </div>
+                        <p class="role">Aluno e Desenvolvedor</p>
+                        <p class="company">Universidade de Fortaleza</p>
+                        <p class="description">
+                            Participação em grupo de estudos com foco em IoT, acompanhado do orientador Daniel Chagas, desenvolvendo projetos 
+                            com ESP32, ESP8266 e C++.
+                        </p>
+                    </div>
+
+                    <!-- Experiência LS -->
+                    <div class="experience-card">
+                        <div class="experience-icon">
+                            <img src="assets/img/ls-logo.jpg" alt="Office Icon">
+                        </div>
+                        <div class="experience-header">
+                            <h3>LS GESTÃO CONTÁBIL</h3>
+                            <span class="date">2023 - Atual</span>
+                        </div>
+                        <p class="role">Auxiliar Contábil</p>
+                        <p class="company">Fortaleza, CE</p>
+                        <p class="description">
+                            Atuação como Auxiliar Contábil, conciliando todas as movimentações e extratos bancários de diversas empresas do nordeste brasileiro, utilizando as ferramentas Excel, Word e Fortes.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Nova seção de Projetos -->
+            <section id="projects" class="projects-section">
+                <h2>PROJETOS 🚀</h2>
+                <p class="subtitle"><span class="gradient-text">Meus projetos em destaque</span></p>
+                
+                <div class="projects-container">
+                    <!-- Projeto 1 -->
+                    <div class="project-card">
+                        <div class="experience-icon">
+                            <img src="assets/img/unifor-logo.jpg" alt="Android Icon">
+                        </div>
+                        <div class="experience-header">
+                            <h3>APP ESPAÇO CULTURAL</h3>
+                            <span class="date">2024.1</span>
+                        </div>
+                        <p class="role">Idealizador e Desenvolvedor</p>
+                        <p class="company">Universidade de Fortaleza</p>
+                        <p class="description">
+                            Desenvolvi um aplicativo completo de uma exposição de arte, utilizando Kotlin e Firebase. 
+                            O projeto focou em aplicar conhecimentos de Desenvolvimento Android.
+                        </p>
+                        <a href="https://github.com/italocards/AppEspacoCultural" class="project-link" target="_blank">Ver Projeto →</a>
+                    </div>
+
+                    <!-- Projeto 2 -->
+                    <div class="project-card">
+                        <div class="experience-icon">
+                            <img src="assets/img/carhub-logo.jpg" alt="Java Icon">
+                        </div>
+                        <div class="experience-header">
+                            <h3>APP DE ALUGUEL DE VEÍCULOS</h3>
+                            <span class="date">2024.2</span>
+                        </div>
+                        <p class="role">Idealizador e Desenvolvedor</p>
+                        <p class="company">Universidade de Fortaleza</p>
+                        <p class="description">
+                            Desenvolvi um aplicativo de aluguel de veículos usando Java e Firebase, 
+                            com foco em arquitetura MVVM e princípios SOLID.
+                        </p>
+                        <a href="https://github.com/italocards/Car-Hub-App" class="project-link" target="_blank">Ver Projeto →</a>
+                    </div>
+                </div>
+            </section>
+
+            <section id="contact" class="contact-section">
+                <h2>CONTATOS 📬</h2>
+                <p class="subtitle"><span class="gradient-text">Vamos conversar?</span></p>
+                
+                <div class="contact-container">
+                    <!-- Email -->
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <img src="assets/img/email-logo.png" alt="Email Icon">
+                        </div>
+                        <div class="contact-info">
+                            <h3>Email</h3>
+                            <p>joaoitalo5002@gmail.com</p>
+                        </div>
+                        <a href="mailto:joaoitalo5002@gmail.com" class="contact-link">Enviar email →</a>
+                    </div>
+            
+                    <!-- LinkedIn -->
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <img src="assets/img/linkedin-logo.png" alt="LinkedIn Icon">
+                        </div>
+                        <div class="contact-info">
+                            <h3>LinkedIn</h3>
+                            <p>linkedin.com/in/italocards</p>
+                        </div>
+                        <a href="https://linkedin.com/in/italocards" target="_blank" class="contact-link">Conectar →</a>
+                    </div>
+            
+                    <!-- WhatsApp -->
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <img src="assets/img/wpp-logo.jpg" alt="WhatsApp Icon">
+                        </div>
+                        <div class="contact-info">
+                            <h3>WhatsApp</h3>
+                            <p>(85) 98417-5416</p>
+                        </div>
+                        <a href="https://wa.me/5585984175416" target="_blank" class="contact-link">Enviar mensagem →</a>
+                    </div>
+            
+                    <!-- GitHub -->
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <img src="assets/img/github-logo.png" alt="GitHub Icon">
+                        </div>
+                        <div class="contact-info">
+                            <h3>GitHub</h3>
+                            <p>github.com/italocards</p>
+                        </div>
+                        <a href="https://github.com/italocards" target="_blank" class="contact-link">Ver projetos →</a>
+                    </div>
+                </div>
             </section>
         </main>
     </body>

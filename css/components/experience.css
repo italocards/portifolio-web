@@ -1,0 +1,112 @@
+.experience-section {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 20px;
+    box-sizing: border-box;
+    scroll-margin-top: 100px;
+}
+
+.experience-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    max-width: 1200px;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.experience-card {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    padding: 25px;
+    transition: transform 0.3s ease;
+}
+
+.experience-card:hover {
+    transform: translateY(-5px);
+}
+
+.experience-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 15px;
+}
+
+.experience-header h3 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #FFF;
+    margin: 0;
+}
+
+.date {
+    font-size: 14px;
+    color: #888;
+}
+
+.role {
+    color: var(--gradient-text);
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.company {
+    color: #888;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.description {
+    color: #CCC;
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.project-link {
+    display: inline-block;
+    color: #FFF;
+    text-decoration: none;
+    font-size: 14px;
+    transition: transform 0.3s ease;
+}
+
+.project-link:hover {
+    transform: translateX(5px);
+}
+
+.experience-icon {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.experience-icon img {
+    width: 50px;
+    height: 50px;
+    border-radius: 12px;
+    object-fit: contain;
+}
+
+/* Aplicar o filtro branco apenas para ícones específicos */
+.experience-icon img[src*="icon"] {
+    filter: brightness(0) invert(1); /* Torna o ícone branco */
+}
+
+@media (max-width: 768px) {
+    .experience-container {
+        grid-template-columns: 1fr;
+    }
+}
