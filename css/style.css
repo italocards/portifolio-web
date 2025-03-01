@@ -7,6 +7,7 @@
 @import "components/experience.css";
 @import "components/projects.css";
 @import "components/contact.css";
+@import "components/footer.css";
 
 html {
     scroll-behavior: smooth;
@@ -16,7 +17,49 @@ body {
     background-color: #000;
     color: #FFF;
     font-family: "Poppins", sans-serif;
+    position: relative;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.background-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    overflow: hidden;
+}
+
+.background-image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 110%;
+    min-height: 110%;
+    transform: translate(-50%, -50%);
     background-image: url('../assets/img/background-pattern.png');
+    background-size: cover;
+    background-position: center;
+    animation: float 20s ease-in-out infinite;
+}
+
+@keyframes float {
+    0%, 100% {
+        transform: translate(-50%, -50%);
+    }
+    25% {
+        transform: translate(-48%, -48%);
+    }
+    50% {
+        transform: translate(-52%, -52%);
+    }
+    75% {
+        transform: translate(-48%, -52%);
+    }
 }
 
 h1 {
